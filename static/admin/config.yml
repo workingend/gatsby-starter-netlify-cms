@@ -29,12 +29,12 @@ collections:
         name: "workingend"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "workingend-page"}
-		  - {label: Mainpitch, name: mainpitch, widget:object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
-		  - {label: Path, name: path, widget:object, fields: [{label: Title, name: title, widget: string}, {label: Choices, name: choices, widget: list, fields: [{label: Image, name: image, widget: string}, {label: User, name: user, widget: string}, {label: Description, name: description, widget: text}, {label: Button, name: button, widget: string}]}]}
-		  - {label: Work, name: work, widget:object, fields: [{label: Title, name: title, widget: string}, {label: Example, name: example, widget: list, fields: [{label: Image, name: image, widget: string}, {label: Project, name: project, widget: string}, {label: Type, name: type, widget: text}]}]}
-		  - {label: Board, name: board, widget:object, fields: [{label: Title, name: title, widget: string}, {label: Leaders, name: leaders, widget: list, fields: [{label: Image, name: image, widget: string}, {label: Leader, name: leader, widget: string}, {label: Title, name: title, widget: text}, {label: Description, name: description, widget: string}]}]}
-		  - {label: Events, name: events, widget:object, fields: [{label: Title, name: title, widget: string}, {label: Event, name: event, widget: list, fields: [{label: Name, name: name, widget: string}, {label: Type, name: type, widget: string}, {label: Description, name: description, widget: text}]}]}
-		  - {label: Support, name: support, widget:object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}, {label: Donate, name: donate, widget: string}]}
+          - {label: Mainpitch, name: mainpitch, widget:object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
+          - {label: Path, name: path, widget:object, fields: [{label: Title, name: title, widget: string}, {label: Choices, name: choices, widget: list, fields: [{label: Image, name: image, widget: string}, {label: User, name: user, widget: string}, {label: Description, name: description, widget: text}, {label: Button, name: button, widget: string}]}]}
+          - {label: Work, name: work, widget:object, fields: [{label: Title, name: title, widget: string}, {label: Example, name: example, widget: list, fields: [{label: Image, name: image, widget: string}, {label: Project, name: project, widget: string}, {label: Type, name: type, widget: text}]}]}
+          - {label: Board, name: board, widget:object, fields: [{label: Title, name: title, widget: string}, {label: Leaders, name: leaders, widget: list, fields: [{label: Image, name: image, widget: string}, {label: Leader, name: leader, widget: string}, {label: Title, name: title, widget: text}, {label: Description, name: description, widget: string}]}]}
+          - {label: Events, name: events, widget:object, fields: [{label: Title, name: title, widget: string}, {label: Event, name: event, widget: list, fields: [{label: Name, name: name, widget: string}, {label: Type, name: type, widget: string}, {label: Description, name: description, widget: text}]}]}
+          - {label: Support, name: support, widget:object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}, {label: Donate, name: donate, widget: string}]}
       - file: "src/pages/index.md"
         label: "Landing Page"
         name: "index"

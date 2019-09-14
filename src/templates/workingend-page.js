@@ -156,7 +156,7 @@ export default WorkingEndPage
 
 export const pageQuery = graphql`
   query WorkingEndPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+    markdownRemark(frontmatter: { templateKey: { eq: "workingend-page" } }) {
       frontmatter {
         title
         image {
